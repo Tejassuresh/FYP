@@ -6,13 +6,13 @@ const MainDiv=styled('div')({
     display:'flex',
 })
 const LeftDiv=styled('div')({
-    // background:'gray',
+    background:'#dddddd',
     width:'60%',
-    margin:'2px',
-    // padding:"20px",
+    margin:'20px',
+    padding:"20px",
     paddingLeft:'30px',
     paddingTop:'30px',
-    height:'400px'
+    height:'100%'
     
 });
 
@@ -51,11 +51,41 @@ const UserDash = ()=>{
         <>
             <MainDiv>
                 <LeftDiv>
-                    <p >Check more about your previous reports</p>
-                    <button >Click here</button>
-                    <p>more crimes reprted near you</p>
-                    <button>know more</button>
-                    <p>recent news about the crimes</p>
+                    <table>
+                        <tr>
+                            <th><u>Crimes</u></th>
+                            <th><u>Details</u></th>
+                        </tr>
+                        <tr>
+                            <th>Lorem, ipsum</th>
+                            <tr>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem ad dolorem quas odio quibusdam fugit voluptatum, nam dignissimos consequatur commodi enim aspernatur veniam, doloribus iste laudantium natus ipsum ex.</tr>
+                        </tr>
+                        <tr>
+                            <th>Lorem, ipsum</th>
+                            <tr>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem ad dolorem quas odio quibusdam fugit voluptatum, nam dignissimos consequatur commodi enim aspernatur veniam, doloribus iste laudantium natus ipsum ex.</tr>
+                        </tr>
+                        <tr>
+                            <th>Lorem, ipsum</th>
+                            <tr>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem ad dolorem quas odio quibusdam fugit voluptatum, nam dignissimos consequatur commodi enim aspernatur veniam, doloribus iste laudantium natus ipsum ex.</tr>
+                        </tr>
+                        <tr>
+                            <th>Lorem, ipsum</th>
+                            <tr>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem ad dolorem quas odio quibusdam fugit voluptatum, nam dignissimos consequatur commodi enim aspernatur veniam, doloribus iste laudantium natus ipsum ex.</tr>
+                        </tr>
+                        <tr>
+                            <th>Lorem, ipsum</th>
+                            <tr>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem ad dolorem quas odio quibusdam fugit voluptatum, nam dignissimos consequatur commodi enim aspernatur veniam, doloribus iste laudantium natus ipsum ex.</tr>
+                        </tr>
+                        <tr>
+                            <th>Lorem, ipsum</th>
+                            <tr>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem ad dolorem quas odio quibusdam fugit voluptatum, nam dignissimos consequatur commodi enim aspernatur veniam, doloribus iste laudantium natus ipsum ex.</tr>
+                        </tr>
+                        <tr>
+                            <th>Lorem, ipsum</th>
+                            <tr>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem ad dolorem quas odio quibusdam fugit voluptatum, nam dignissimos consequatur commodi enim aspernatur veniam, doloribus iste laudantium natus ipsum ex.</tr>
+                        </tr>
+                        
+                    </table>
                 </LeftDiv>
                 <RightDiv>
                     <UserInfo>

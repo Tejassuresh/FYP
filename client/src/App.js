@@ -7,6 +7,7 @@ import Contact from "./components/pages/Contact";
 import GovtOrg from "./components/pages/GovtOrg";
 import Login from "./components/auth.jwt/Login";
 import UserDash from "./components/pages/User_Dash";
+import PoliceDash from "./components/pages/PoliceDash";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="contact-us" element={<Contact />} />
           <Route path="govt-organization" element={<GovtOrg />} />
           <Route path="user-dashbord" element={<UserDash/>}/>
+          <Route path="police-dashbord" element={<PoliceDash/>}/>
         </Route>
         <Route path="login" element={<Login />} />
       </Routes>
