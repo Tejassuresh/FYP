@@ -12,7 +12,7 @@ const Home = () => {
       <MainDiv>
         <div>
           <h1>Welcome</h1>
-          <p>This platform is dedicated to provide quick crime reporting to nearby Police Station to empower communities to stay safe and informed. Through cutting-edge technology and data analysis, we aim to create a safer environment for all.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque saepe fuga corrupti, rerum reiciendis nam libero maiores iste error laboriosam optio alias perferendis ipsa! Velit animi expedita adipisci fuga odit, atque laborum, esse sint odio doloremque vero illo perspiciatis ipsam tempore veritatis? Debitis molestiae obcaecati nesciunt repellendus cumque error.</p>
         </div>
       </MainDiv>
     </div>

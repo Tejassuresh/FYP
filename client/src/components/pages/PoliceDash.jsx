@@ -4,15 +4,17 @@ const MainDiv=styled('div')({
 })
 
 const Map=styled("div")({
-    
+    backgroundColor:'#87CEEB', 
+    height:'600px',
+    margin:'40px',
+    padding:"20px",
     
 })
 const Right=styled('div')({
-    backgroundColor:'#87CEEB',
+    
     width:'60%',
-    margin:'40px',
-    padding:"20px",
-    height:'600px'
+    
+    
 })
 const Left=styled("div")({
     width:'40%',
@@ -35,6 +37,12 @@ const Stats=styled("div")({
     padding:"20px",
 
 })
+
+const Crimebutton=styled("div")({
+    margin:'40px',
+    // padding:"20px",
+    
+})
 const PoliceDash=()=>{
     return(
         <>
@@ -51,6 +59,13 @@ const PoliceDash=()=>{
                     <Map>
                         This is the map
                     </Map>
+                    <Crimebutton>
+                        <button style={{
+                            width:'400px',
+                            height:"70px",
+                            backgroundColor:'#FED8B1'
+                        }}>Fetch Crime Data</button>
+                    </Crimebutton>
                 </Right>
             </MainDiv>
         </>
