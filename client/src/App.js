@@ -8,6 +8,8 @@ import GovtOrg from "./components/pages/GovtOrg";
 import Login from "./components/auth.jwt/Login";
 import UserDash from "./components/pages/User_Dash";
 import PoliceDash from "./components/pages/PoliceDash";
+import OfficialLogin from "./components/auth.jwt/OfficialLogin";
+
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="police-dashbord" element={<PoliceDash/>}/>
         </Route>
         <Route path="login" element={<Login />} />
+        <Route path="official-login" element={<OfficialLogin />} />
+
       </Routes>
     </>
   );

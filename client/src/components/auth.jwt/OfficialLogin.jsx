@@ -12,6 +12,7 @@ const Component = styled(Box)`
   width: 450px;
   margin: auto;
   box-shadow: 5px 2px 5px 2px rgb(0 0 0/0.6);
+  background-color: #e4f2e4;
 `;
 
 const Image = styled("img")({
@@ -65,10 +66,6 @@ const Login = () => {
     account === "signup" ? toggleAccount("login") : toggleAccount("signup");
   };
 
-  const OfficialUseClick = () => {
-    window.open("/official-page", "_self");
-  };
-
   return (
     <MainDiv>
       <Component>
@@ -79,7 +76,7 @@ const Login = () => {
               <TextField
                 variant="standard"
                 name="email"
-                label="Enter user ID"
+                label="Enter police ID"
               />
               <TextField
                 variant="standard"
@@ -92,8 +89,8 @@ const Login = () => {
               <SignUpButton onClick={() => toggleSignup()}>
                 Create an account
               </SignUpButton>
-              <Button component={NavLink} to="/official-login">
-                Official use
+              <Button component={NavLink} to="/login">
+                common user?
               </Button>
             </Wrapper>
           ) : (
@@ -106,12 +103,12 @@ const Login = () => {
               <TextField
                 variant="standard"
                 name="adharNo"
-                label="Enter adhar number"
+                label="Enter designation"
               />
               <TextField
                 variant="standard"
                 name="mobileNo"
-                label="Enter mobile number"
+                label="Enter id no."
               />
               <TextField
                 variant="standard"
@@ -134,8 +131,8 @@ const Login = () => {
               <SignUpButton onClick={() => toggleSignup()}>
                 Already have an account
               </SignUpButton>
-              <Button component={NavLink} to="/official-login">
-                Official use
+              <Button component={NavLink} to="/login">
+                common user?
               </Button>
             </Wrapper>
           )}
