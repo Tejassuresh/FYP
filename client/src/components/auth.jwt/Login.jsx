@@ -74,7 +74,7 @@ const Login = () => {
               <TextField
                 variant="standard"
                 name="email"
-                label="Enter mail-id"
+                label="Enter User-id"
               />
               <TextField
                 variant="standard"
